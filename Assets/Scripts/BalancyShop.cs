@@ -5,6 +5,7 @@ using Balancy.Models.SmartObjects;
 using Balancy.Models.LiveOps.Store;
 using Balancy.Platforms.Nutaku;
 using System;
+using Nutaku.Unity;
 
 public class BalancyShop: MonoBehaviour
 {
@@ -13,6 +14,11 @@ public class BalancyShop: MonoBehaviour
 
     [SerializeField] private BalancyShopItem balancyShopItemPrefab;
     [SerializeField] private Transform content;
+
+    void Awake()
+    {
+        //SdkPlugin.Initialize();
+    }
 
     protected void Start()
     {
