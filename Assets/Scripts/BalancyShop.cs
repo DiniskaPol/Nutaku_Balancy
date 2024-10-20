@@ -101,7 +101,8 @@ public class BalancyShop: MonoBehaviour
             {
                 foreach (var slot in page.ActiveSlots)
                 {
-                    Instantiate(balancyShopItemPrefab, content);                    
+                    BalancyShopItem balancyShopItem = Instantiate(balancyShopItemPrefab, content);
+                    balancyShopItem.Init(slot.GetStoreItem());
                 }
             }
         }

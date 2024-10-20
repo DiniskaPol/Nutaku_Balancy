@@ -10,9 +10,9 @@ namespace Nutaku.Unity
     class NativePluginStub : INativePlugin
     {
         // You must configure the following 3 fields with your sandbox-specific values when running in Unity mode. When running on an android device, use the AndroidManifest meta-data instead.
-        const string SandboxAppId = "83344";
-        const string SandboxConsumerKey = "N0kKXEWoTxlSNFIh";
-        const string SandboxConsumerSecret = "G#dxjtVepvPaV?8v3b$PJV6qda@WKJ5[";
+        const string SandboxAppId = "94121";
+        const string SandboxConsumerKey = "p1Kn9yIfHaZbuUvt";
+        const string SandboxConsumerSecret = "F3urZ3Tlu6rd]0]qROFQ[bWJbKLzt9WY";
         
         const int VersionCode = 1;
         const string MobileApiEndpoint = "https://sbox-mobileapi.nutaku.com/";
